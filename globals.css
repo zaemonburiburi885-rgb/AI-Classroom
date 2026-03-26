@@ -1,0 +1,13 @@
+.dark {
+  --bg-color: #1a1a2e;
+  --text-color: #eaeaea;
+  --accent-color: #e94560;
+}
+
+body {
+  @apply bg-white text-gray-800;
+}
+
+.dark body {
+  @apply bg-bg-color text-text-color;
+}
